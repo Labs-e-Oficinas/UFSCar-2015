@@ -60,7 +60,7 @@ remDrv$closeServer()
 links.problema <- c()
 dados <- data.frame()
 i = 1
-for (link in links[1410:2313]){
+for (link in links){
   print(i)
   pagina <- readLines(link)
   pagina <- htmlParse(pagina)
